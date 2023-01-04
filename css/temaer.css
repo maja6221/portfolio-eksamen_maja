@@ -1,0 +1,85 @@
+
+/* -------------------bokse------------------------ */
+.container {
+    position: relative;
+    width: 100%;
+    padding-inline: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #ffffff;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    white-space: nowrap;
+    font-family: "Bebas Neue", cursive;
+  }
+  
+  .grid_opacity {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    
+  }
+  
+  @media (min-width: 600px) {
+    .grid_opacity {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      padding: 20px;
+      
+  
+    }
+  
+    .container {
+        position: relative;
+        width: 60%;
+        padding-inline: 30px;
+        padding-bottom: 30px;
+       justify-self: center;
+      }
+      
+   
+  }
+
+  /* -------------------bokse slut------------------------ */
+
+
+  .p_temaer {
+    font-family: "bebas neue";
+    color: #09297a;
+    text-align: center;
+    font-size: 25px;
+  }

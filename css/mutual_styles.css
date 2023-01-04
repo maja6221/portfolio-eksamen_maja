@@ -16,25 +16,22 @@
   img {
     width: 100%;
     height: auto;
-    display: block;
+    /* display: block; */
   }
   
   main {
     max-width: 1000px;
     margin-inline: auto;
-    /* padding-inline: 20px; */
+    padding-inline: 30px;
     display: grid;
     max-width: none;
   }
   
+  
 
 
+ 
 
-
-@font-face {
-    font-family: "caveat";
-    src: url(caveat.woff2) format("woff2");
-  }
 
   
 
