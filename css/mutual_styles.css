@@ -1,3 +1,36 @@
+/* Nulstilling af margin og padding på alle elementer, samt ændring af box model på alle elementer */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Normalisering af font og linjehøjde på dokumentets tekster, samt nedtoning af tekstfarven */
+  body {
+    font-family: system-ui, sans-serif;
+    line-height: 1.6;
+    color: #2d2d2d;
+  }
+  
+  /* Normalisering af billeder */
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  main {
+    max-width: 1000px;
+    margin-inline: auto;
+    /* padding-inline: 20px; */
+    display: grid;
+    max-width: none;
+  }
+  
+
+
+
+
 @font-face {
     font-family: "caveat";
     src: url(caveat.woff2) format("woff2");
@@ -15,10 +48,10 @@
   
   ul#menu li {
     /* display: inline; */
-    font-size: 17px;
+    font-size: 30px;
     padding-left: 5px;
     list-style: none;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "bebas neue" ;
   }
   
   @media (min-width: 600px) {
@@ -28,17 +61,8 @@
       padding-left: 10px;
       padding-right: 10px;
     }
-
-  
-    #grid_menu {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      align-items: center;
-    }
   
   }
-  
-
   
   header {
     position: sticky;
@@ -55,32 +79,25 @@
   }
   
   .logo {
-    font-family: "Heebo", sans-serif;
-    font-size: 20px;
+    font-family: "bebas neue";
+    font-size: 50px;
     padding-right: 10px;
-    grid-column: 2;
-    display: grid;
   }
+
   
   header.logo.a {
     font-size: 4rem;
   }
   
-  .logo_img {
-    width: 60%;
-    align-items: center;
-  }
   
   @media (min-width: 600px) {
     .logo a {
-      display: grid;
-      justify-items: center;
-      align-items: center;
+      /* display: grid; */
+      grid-column: 1;
+  
+     
     }
-    .logo_img {
-      width: 50%;
-      align-items: center;
-    }
+   
   }
   
   header.nav.ul {
@@ -94,41 +111,51 @@
     overflow-x: auto;
   }
   
-  #header-nav {
-    --less-than: 600;
-    --burger-lines: rgb(124, 78, 9);
-    --burger-border: rgb(92, 32, 0);
-    grid-column: 1;
-    grid-row: 1;
-    display: grid;
-  }
+  
   
   a {
     text-decoration: none;
     font-weight: 700;
-    color: rgb(96, 39, 4);
+    color: rgb(0, 0, 0);
   }
   
   a:hover {
-    color: rgb(130, 92, 15);
+    color: #2c9feb;
   }
   
   * {
     box-sizing: border-box;
   }
   
-  @media (min-width: 600px) {
-  
-    #header-nav {
-      --less-than: 600;
-      --burger-lines: rgb(124, 78, 9);
-      --burger-border: rgb(92, 32, 0);
-      grid-column: 1;
-      grid-row: 1;
-      display: grid;
-    }
-  }
 
   
   /* ----------------menu slut------------------------------- */
   
+
+  /* ----------------footer-------------------------- */
+
+  .footer {
+    text-align: center;
+    padding-top: 2cm;
+    padding-bottom: 40px;
+  
+  }
+
+  .p_footer {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+  }
+
+  #section1 {
+    padding-top: 5%;
+    padding: 5%;
+  }
+  #section1 .sociale_medier {
+    width: 40%;
+    display: flex;
+    gap: 20%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* --------------------footer slut----------------------- */

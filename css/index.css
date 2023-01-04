@@ -1,0 +1,30 @@
+.button {
+  color: #ffffff;
+  background-color: #09297a;
+  border: none;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: "elsie";
+  text-align: center;
+  box-shadow: 5px 5px 5px #accbe2;
+  width: 150%;
+}
+.button:active {
+  background-color: #3772d1;
+  box-shadow: 5px 5px 5px;
+  transform: translateY(4px);
+}
+
+button:hover {
+  color: #7dbee9;
+}
+
+.index3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-self: center;
+  gap: 100px;
+  padding: 30px;
+}
