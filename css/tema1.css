@@ -1,0 +1,28 @@
+.grid_tema1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.h1_tema1 {
+  justify-self: center;
+  align-self: center;
+  font-family: "bebas neue";
+  font-size: 60px;
+  color: #09297a;
+}
+
+.h4_tema1 {
+  font-family: "bebas neue";
+  font-size: 20px;
+  color: #09297a;
+}
+
+.p_tema1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 17px;
+}
+
+/*================ tilbage til projekter==============*/
+#tilbagepil {
+  width: 15%;
+}
