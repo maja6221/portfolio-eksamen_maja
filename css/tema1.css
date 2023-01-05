@@ -1,7 +1,13 @@
 .grid_tema1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  background-image: url("../billeder_portfolie/wallpaper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
+
 
 .h1_tema1 {
   justify-self: center;
@@ -11,18 +17,100 @@
   color: #09297a;
 }
 
+
 .h4_tema1 {
   font-family: "bebas neue";
   font-size: 20px;
   color: #09297a;
+  padding-top: 20px;
 }
 
 .p_tema1 {
   font-family: "Times New Roman", Times, serif;
-  font-size: 17px;
+  font-size: 15px;
 }
+
+.div1 {
+  justify-self: center;
+  align-self: center;
+  padding-right: 40px;
+  
+}
+
+
+.div2 {
+  justify-self: center;
+
+}
+
+.liste_tema1 {
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+  }
+
+
+  .praesentationskort {
+    width: 60%;
+  }
+
+  .li2 {
+    font-weight: bold;
+  }
+
+  .hvad_jeg_har_lært_tema1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+  }
+
+  
+
+
+
+  
+
+  
+
 
 /*================ tilbage til projekter==============*/
 #tilbagepil {
   width: 15%;
 }
+
+
+
+
+@media (max-width: 600px) {
+   
+    .div1 {
+        justify-self: left;
+        align-self: center;
+        padding: 0px;
+      }
+      
+      .div2 {
+        justify-self: left;
+        align-self: center;
+      }
+   
+      #tilbagepil {
+        width: 30%;
+      }
+
+      .h4_tema1 {
+        font-family: "bebas neue";
+        font-size: 20px;
+        color: #09297a;
+        padding-top: 20px;
+      }
+
+      .grid_tema1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-inline: 20px;
+    }
+}
+

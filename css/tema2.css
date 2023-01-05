@@ -1,29 +1,235 @@
+/* ----------------------section 2------------------------------- */
+
 .grid_tema2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-image: url("../billeder_portfolie/wallpaper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.h1_tema2 {
+  justify-self: center;
+  align-self: center;
+  font-family: "bebas neue";
+  font-size: 60px;
+  color: #09297a;
+}
+
+.h4_tema2 {
+  font-family: "bebas neue";
+  font-size: 20px;
+  color: #09297a;
+  padding-top: 20px;
+}
+
+.p_tema2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+}
+
+.div1 {
+  justify-self: center;
+  align-self: center;
+  padding-right: 40px;
+}
+
+.div2 {
+  justify-self: center;
+  padding-bottom: 20px;
+}
+
+.liste_tema2 {
+  text-decoration: none;
+  list-style: none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+}
+
+.bokse {
+  width: 60%;
+}
+
+.li3 {
+  font-weight: bold;
+}
+
+.hvad_jeg_har_lært_tema2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+
+/* ---------------------------section 3------------------------------ */
+
+.grid_tema2_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-inline: 50px;
+}
+.h2_tema2 {
+  text-align: center;
+  font-family: "bebas neue";
+  font-size: 50px;
+  color: #09297a;
+  padding-top: 20px;
+}
+
+.div3 {
+  padding-right: 90px;
+}
+.div4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.moodboard,
+.styletile,
+.mockup,
+.wireframe {
+  padding: 10px;
+}
+
+.h4_tema2_1 {
+  font-family: "bebas neue";
+  font-size: 20px;
+  color: #09297a;
+}
+
+/* ---------------------------section 4------------------------------ */
+
+.grid_tema2_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-inline: 50px;
+}
+
+.div6 {
+  width: 60%;
+  grid-row: 1;
+  padding-inline: 10px;
+}
+
+.div5 {
+  grid-column: 2;
+}
+
+.html,
+.css {
+  padding: 10px;
+}
+
+/* ---------------------------section 5------------------------------ */
+
+
+
+.færdig_produkt {
+  width: 100%;
+ padding-inline: 300px;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #09297a;
+  border: none;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: "elsie";
+  text-align: center;
+  box-shadow: 5px 5px 5px #accbe2;
   
-  .h1_tema2 {
-    justify-self: center;
+}
+.button:active {
+  background-color: #3772d1;
+  box-shadow: 5px 5px 5px;
+  transform: translateY(4px);
+}
+
+button:hover {
+  color: #7dbee9;
+}
+
+.div7 {
+padding-inline: 45%;
+}
+
+/*================ tilbage til projekter==============*/
+#tilbagepil {
+  width: 15%;
+}
+
+@media (max-width: 600px) {
+  .div1 {
+    justify-self: left;
     align-self: center;
-    font-family: "bebas neue";
-    font-size: 60px;
-    color: #09297a;
+    padding: 0px;
   }
-  
+
+  .div2 {
+    justify-self: left;
+    align-self: center;
+  }
+
+  .div3 {
+    padding-right: 0px;
+  }
+
+  #tilbagepil {
+    width: 30%;
+  }
+
   .h4_tema2 {
     font-family: "bebas neue";
     font-size: 20px;
     color: #09297a;
+    padding-top: 20px;
+  }
+
+  .grid_tema2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-inline: 20px;
+  }
+
+  .grid_tema2_1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-inline: 0px;
+  }
+
+  .grid_tema2_2 {
+    display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 1fr;
+    padding-inline: 0px;
+  }
+
+  .div6 {
+    width: 100%;
+    grid-row: 2;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px;
   }
   
-  .p_tema2 {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 17px;
+  .div5 {
+    grid-column: 1;
   }
-  
-  /*================ tilbage til projekter==============*/
-  #tilbagepil {
-    width: 15%;
+
+  .færdig_produkt {
+    width: 100%;
+    padding-inline: 0px;
   }
-  
+
+  .div7 {
+    padding-inline: 30%;
+    }
+ 
+}
