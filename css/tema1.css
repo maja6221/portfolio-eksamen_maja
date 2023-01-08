@@ -10,7 +10,8 @@
 
 
 .h1_tema1 {
-  justify-self: center;
+  
+  text-align: center;
   align-self: center;
   font-family: "bebas neue";
   font-size: 60px;

@@ -1,62 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <meta name="robots" content="noindex" />
     <link rel="stylesheet" href="css/tema4.css" />
-    <link rel="stylesheet" href="css/mutual_styles.css">
+    <link rel="stylesheet" href="css/mutual_styles.css" />
     <link rel="icon" type="image/svg+xml" href="favicon1.svg" />
-</head>
-<body>
+  </head>
+  <body>
+    <!------------------------------menu----------------------------------------->
     <header id="grid_menu">
-        <div class="logo">
-         <a href="index.html">Magol.dk</a>
+      <div class="logo">
+        <a href="index.html">Magol.dk</a>
       </div>
-        <nav id="header_nav">
-          <ul id="menu">
-            <li class="subnav"><a href="temaer.html">Temaer</a></li>
-            <li class="subnav1"><a href="om_mig.html">Om mig</a></li>
-          </ul>
-        </nav>
-      </header>
-      
-      <div id="tilbagepil">
-        <img src="billeder_portfolie/Artboard8-kopi.png" alt="pil" />
-      </div>
-      <main>
-        <section id="section2">
-          <div class="grid_tema4">
-            <h1 class="h1_tema4">Tema 4</h1>
-            <div class="div1">
-              <h4 class="h4_tema4">Beskrivelse af Tema:</h4>
-              <p class="p_tema4">bla bla</p>
-              <h4 class="h4_tema4">Hvad jeg har lært:</h4>
-              <p class="p_tema4">bla bla</p>
-  
+      <nav id="header_nav">
+        <ul id="menu">
+          <li class="subnav"><a href="temaer.html">Projekter</a></li>
+          <li class="subnav1"><a href="om_mig.html">Om mig</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="tilbagepil">
+      <img src="billeder_portfolie/Artboard8-kopi.png" alt="pil" />
+    </div>
+
+    <main>
+      <button onclick="topFunction()" id="myBtn" title="Gå til top">↑</button>
+
+      <!------------------------------section 2----------------------------------------->
+      <section id="section2">
+        <div class="grid_tema3">
+          <h1 class="h1_tema3">
+            Tema 4 <br />
+            Grundlæggende Animation
+          </h1>
+          <div class="div1">
+            <h4 class="h4_tema3">Beskrivelse af Tema:</h4>
+            <p class="p_tema3">
+              I tema 4 har vi lært om JavaScript og samspillet mellem JavaScript og CSS animation, til at skabe et lille spil. Spillets koncept har vi selv skulle finde på, hvorefter vi selv har skulle designe alle elementer fra bunden, i Adobe Illustrator.
+              <br />
+              <br />
+              Vi har undersøgt spildesign, for at finde ud af hvordan brugeren engageres mest, samt analyseret teori og konventioner, inden for UI-elementer, figurelementer, baggrundsdesign og kompositionsteknikker.
+            </p>
+            <h4 class="h4_tema3">Hvad jeg har lært:</h4>
+            <ul class="hvad_jeg_har_lært_tema3">
+              <li>At arbejde med digitale udvekslingsformater (eks. .svg, .mp3 osv)</li>
+              <li>At forstå og bruge de anvendte frontend-teknologier (eks. JavaScript og Illustrator)</li>
+              <li>Forskellige indholdstyper og udtryksformer (eks. Formgivning og kompositionsprincipper)</li>
+              <li>At udvikle CSS animation</li>
+              <li>At forstå udviklingen af JavaScript (eks. funktioner og events)</li>
+              <li>At skitsere og udvikle en idé, til et visuelt koncept</li>
+              <li>At lave og bruge Aktivitetsdiagram og State Machine Diagram</li>
+              <li>At udvikle mit eget spil</li>
+            </ul>
+          </div>
+          <div class="div2">
+            <h4 class="h4_tema3">Afleveringer:</h4>
+            <ul class="liste_tema3">
+              <li class="li1"><a href="">04.01.a Ide, papirsprototype og stiludgangspunkt</a></li>
+              <li class="li2"><a href="">04.01.b Analyse af din valgte stil</a></li>
+              <li class="li3"><a href="">04.01.c Skitser på design</a></li>
+              <li class="li4"><a href="">04.01.d Rentegning</a></li>
+              <li class="li5"><a href="https://magol.dk/kea/04_animation/website/teknik.html">04.02.a Link til site v1 (skelet)</a></li>
+              <li class="li6"><a href="https://www.magol.dk/kea/04_animation/website/spil.html">04.02.b Spil med indsat grafik i kode</a></li>
+              <li class="li7"><a href="https://magol.dk/kea/04_animation/website/teknik.html">04.01.01 Aktivitetsdiagram for eget spil</a></li>
+              <li class="li8"><a href="https://www.magol.dk/kea/04_animation/website/spil.html">04.02.01c State Machine Diagram til eget spil</a></li>
+              <li class="li9"><a href="https://www.magol.dk/kea/04_animation/website/index.html">04.04.01 Temaopgave</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!------------------------------section 3----------------------------------------->
+      <section id="section3">
+        <h2 class="h2_tema3">Proces</h2>
+        <div class="grid_tema3_1">
+          <div class="div3">
+            <h4 class="h4_tema3_1">Idé, papirsprototype, skitser og stiludgangspunkt</h4>
+            <p class="p_tema3">
+              Den færste fase af tema 4, var at researche og idéudvikle. Her undersøgte jeg blandt andet en stil, som jeg godt kunne tænke mig, til mit spil. Jeg valgte at tage udgangspunkt i den japansk Kawaii stil, som er beskrevet som nuttet. Mit spil er flat-design, som er et
+              minimalistisk design, med todimensionelle elementer.
+              <br />
+              <br />
+              For at udvikle et spilkoncept, skulle jeg overveje spillets historie, hvordan skal man kunne vinde, hvordan skal man kunne tabe og hvilke UI-elementer der skulle med. Herefter begyndte jeg på mine skitser og lavede en papirsprotoype, med udklippede spilelementer, så
+              jeg kunne få en forestilling om, hvordan spillet skulle fungere.
+              <br />
+              <br />
+              
+            </p>
+          </div>
+          <!------------------------------section 3 billeder----------------------------------------->
+          <div class="div4">
+            <div class="mockup">
+              <img class="img1" src="billeder_portfolie/tema4/ide.png" alt="ide" />
+              <h4 class="h4_tema3_1">Idé</h4>
+            </div>
+            <div class="wireframe">
+              <img class="img2" src="billeder_portfolie/tema4/papirsprototype1.png" alt="papirsprototype" />
+              <h4 class="h4_tema3_1">Papirsprototype</h4>
+            </div>
+            <div class="moodboard">
+              <img class="img3" src="billeder_portfolie/tema4/stiludgangspunkt.png" alt="stiludgangspunkt" />
+              <h4 class="h4_tema3_1">Stilinspiration</h4>
+            </div>
+            <div class="styletile">
+              <img class="img4" src="billeder_portfolie/tema4/skitser1.png" alt="skitser" />
+              <h4 class="h4_tema3_1">Skitser</h4>
             </div>
           </div>
-        </section>
-      </main>
-    <footer class="footer">
-        <section id="section1">
-          <div class="sociale_medier">
-          
-            <a href="https://www.facebook.com/maja.goltermann/">
-              <img src="billeder_portfolie/facebook.png" alt="facebook" />
-            </a>
-            <a href="mailto:maja.goltermann@gmail.com">
-              <img src="billeder_portfolie/email.png" alt="mail" />
-            </a>
-            <a href="https://www.instagram.com/majagoltermann/">
-              <img src="billeder_portfolie/instagram.png" alt="insta" />
-            </a>
+        </div>
+      </section>
+      <hr class="hr1" />
+      <!------------------------------section 4----------------------------------------->
+      <section id="section4">
+        <div class="grid_tema3_2">
+          <div class="div5">
+            <h4 class="h4_tema3_1">Aktivitetsdiagram og State Machine diagram</h4>
+            <p class="p_tema3"></p>
           </div>
-        </section>
-        <p class="p_footer">Lavet af Maja Goltermann / maja.goltermann@gmail.com / maja6221@stud.kea.dk</p>
-        </footer>
-        <script src="java.js"></script>
-</body>
+          <!------------------------------section 4 billeder----------------------------------------->
+          <div class="div6">
+            <div class="aktivitetsdiagram">
+              <img class="img5" src="billeder_portfolie/tema4/aktivitetsdiagram.png" alt="aktivitetsdiagram" />
+              <h4 class="h4_tema3_1">Aktivitetsdiagram</h4>
+            </div>
+            <div class="statemachine">
+              <img class="img6" src="billeder_portfolie/tema4/Statemachine.png" alt="statemachine" />
+              <h4 class="h4_tema3_1">State Machine Diagram</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="hr1" />
+      <!------------------------------section 5----------------------------------------->
+      <section id="section5">
+        <div class="grid_tema3_3">
+          <div class="div7">
+            <h4 class="h4_tema3_1">HTML, CSS og Javascript</h4>
+            <p class="p_tema3"></p>
+          </div>
+
+          <div class="div8">
+            <div class="html">
+              <img class="img7" src="billeder_portfolie/tema4/html_spil.png" alt="html" />
+              <h4 class="h4_tema3_1">HTML</h4>
+            </div>
+            <div class="css">
+              <img class="img8" src="billeder_portfolie/tema4/css_spil.png" alt="css" />
+              <h4 class="h4_tema3_1">CSS</h4>
+            </div>
+            <div class="java">
+              <img class="img9" src="billeder_portfolie/tema4/java_spil.png" alt="spil" />
+              <h4 class="h4_tema3_1">Javascript</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!------------------------------section 6----------------------------------------->
+      <section id="section6">
+        <h2 class="h2_tema3">Færdige produkt</h2>
+        <div class="færdig_produkt">
+          <img src="billeder_portfolie/tema4/spil_færdig.png" alt="færdig_produkt" />
+        </div>
+        <div class="div9">
+          <form action="https://www.magol.dk/kea/04_animation/website/index.html">
+            <button class="button" type="submit">Se Spil</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!------------------------------footer----------------------------------------->
+    <footer class="footer">
+      <section id="section1">
+        <div class="sociale_medier">
+          <a href="https://www.facebook.com/maja.goltermann/">
+            <img src="billeder_portfolie/facebook.png" alt="facebook" />
+          </a>
+          <a href="mailto:maja.goltermann@gmail.com">
+            <img src="billeder_portfolie/email.png" alt="mail" />
+          </a>
+          <a href="https://www.instagram.com/majagoltermann/">
+            <img src="billeder_portfolie/instagram.png" alt="insta" />
+          </a>
+        </div>
+      </section>
+      <p class="p_footer">Lavet af Maja Goltermann / maja.goltermann@gmail.com / maja6221@stud.kea.dk</p>
+    </footer>
+    <script src="java.js"></script>
+  </body>
 </html>

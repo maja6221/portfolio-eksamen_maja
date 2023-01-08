@@ -27,6 +27,24 @@
     max-width: none;
   }
   
+  hr {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 10%;
+    
+    border: 0;
+    border-top: 1px solid black;
+  }
+
+  .hr1 {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    border: 0;
+    border-top: 1px solid black;
+  }
+  
   
 
 
@@ -156,3 +174,25 @@
   }
 
   /* --------------------footer slut----------------------- */
+
+  /*---------tilbage til toppen-----------*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 15px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 40px;
+  font-size: 10px;
+  font-family: "Cormorant Garamond", serif;
+}
+
+#myBtn:hover {
+  background-color: grey;
+}

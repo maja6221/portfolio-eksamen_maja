@@ -1,63 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <meta name="robots" content="noindex" />
     <link rel="stylesheet" href="css/tema3.css" />
-    <link rel="stylesheet" href="css/mutual_styles.css">
+    <link rel="stylesheet" href="css/mutual_styles.css" />
     <link rel="icon" type="image/svg+xml" href="favicon1.svg" />
-</head>
-<body>
+  </head>
+  <body>
+    <!------------------------------menu----------------------------------------->
     <header id="grid_menu">
-        <div class="logo">
-         <a href="index.html">Magol.dk</a>
+      <div class="logo">
+        <a href="index.html">Magol.dk</a>
       </div>
-        <nav id="header_nav">
-          <ul id="menu">
-            <li class="subnav"><a href="temaer.html">Temaer</a></li>
-            <li class="subnav1"><a href="om_mig.html">Om mig</a></li>
-          </ul>
-        </nav>
-      </header>
-      
-      <div id="tilbagepil">
-        <img src="billeder_portfolie/Artboard8-kopi.png" alt="pil" />
-      </div>
-      <main>
-        <section id="section2">
-          <div class="grid_tema3">
-            <h1 class="h1_tema3">Tema 3</h1>
-            <div class="div1">
-              <h4 class="h4_tema3">Beskrivelse af Tema:</h4>
-              <p class="p_tema3">bla bla</p>
-              <h4 class="h4_tema3">Hvad jeg har lært:</h4>
-              <p class="p_tema3">bla bla</p>
-  
+      <nav id="header_nav">
+        <ul id="menu">
+          <li class="subnav"><a href="temaer.html">Projekter</a></li>
+          <li class="subnav1"><a href="om_mig.html">Om mig</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="tilbagepil">
+      <img src="billeder_portfolie/Artboard8-kopi.png" alt="pil" />
+    </div>
+
+    <main>
+      <button onclick="topFunction()" id="myBtn" title="Gå til top">↑</button>
+
+      <!------------------------------section 2----------------------------------------->
+      <section id="section2">
+        <div class="grid_tema3">
+          <h1 class="h1_tema3">
+            Tema 3 <br />
+            Grundlæggende UX
+          </h1>
+          <div class="div1">
+            <h4 class="h4_tema3">Beskrivelse af Tema:</h4>
+            <p class="p_tema3">
+              I tema 3 er jeg blevet introduceret for grundlæggende UX (User Experience), der handler om brugerens oplevelse på brugergrænsefladen og dens udvikling. UX er med til at give en forståelse for, hvordan brugeren og brugergrænsefladen spiller sammen.
+              <br />
+              <br />
+              Det handler om at researche, designe og teste, til brugergrænsefladens fordel. På den måde får man nogle indsigter, der kan bruges i designvalg og videreudviklingen af brugergrænsefladen. Ved hjælp af UX, sikrer du dig, at du imødekkommer brugerens behov og
+              forventninger. Det handler om at gøre oplevelsen behagelig, effektiv og brugervenlig.
+              <br />
+              <br />
+              I dette tema, har vi gjort brug af Adobe XD, til at designe en prototype af en hjemmeside, der skulle omhandle salg af t-shirts. Her har vi fulgt en UX-designers design- og arbejdsprocess.
+              <br />
+            </p>
+          </div>
+          <div class="div2">
+            <h4 class="h4_tema3">Hvad jeg har lært:</h4>
+            <ul class="hvad_jeg_har_lært_tema3">
+              <li>At forstå UX-erens rolle</li>
+              <li>Forskellen mellem user experience (UX) og user interface (UI)</li>
+              <li>At forstå UI konventioner, prototyping og testing</li>
+              <li>At forstå praksisnære principper og metoder, til planlægning og produktion (copy, microcopy og fotostil)</li>
+              <li>At bruge forskellige metoder og værktøjer til designudvikling (koncept, reserach fase, sketching osv.)</li>
+              <li>At indsamle og analysere data om samspillet mellem brugeren og brugergrænsefladen (Desk research, survey, observation og interviews)</li>
+              <li>At bruge grundlæggende metoder, principper og teknologier, til designprocessen (XD, UI konventioner, research)</li>
+              <li>At udføre og formidle brugertest (tænke-højt test)</li>
+            </ul>
+
+            <h4 class="h4_tema3">Afleveringer:</h4>
+            <ul class="liste_tema3">
+              <li class="li1"><a href="">03.01.01 Koncept 1</a></li>
+              <li class="li2"><a href="">03.01.02 Research og dataindsamling</a></li>
+              <li class="li3"><a href="">03.02.01 Idéudvikling og tidlige prototyper</a></li>
+              <li class="li4"><a href="https://xd.adobe.com/view/011c64e9-c59c-4820-be12-e6909910b3e1-544f/">03.02.02 Løsning</a></li>
+              <li class="li5"><a href="">03.03.01 Test</a></li>
+              <li class="li6"><a href="">03.03.02 Pitch </a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!------------------------------section 3----------------------------------------->
+      <section id="section3">
+        <h2 class="h2_tema3">Proces</h2>
+        <div class="grid_tema3_1">
+          <div class="div3">
+            <h4 class="h4_tema3_1">Koncept, research og dataindsamling</h4>
+            <p class="p_tema3">
+              I tema 3 skulle vi lave en prototype af et website, der sælger t-shirts, samt to andre produkter. Første fase af opgaven, bestod i at finde på sitets koncept. Her kom jeg op med konceptet "PANT", som skulle være t-shirts, net og kaskekker, fremstillet af plastik,
+              omdannet til ployester, for at skabe mere fokus på bæredygtighed. Herefter skulle jeg vurdere hvem min målgruppe er, hvordan jeg vil sælge mine produkter og en USP, der kan fortælle brugeren, hvorfor de skal købe mit produkt.
+              <br />
+              <br />
+              Næste fase er research og dataindsamling. Her startede jeg med en desk-research, som er en måde at undersøge og indsamle viden om et emne, ved hjælp af google søgning, analyse af allerede eksisterende hjemmesider, artikler, blogs osv. Her nedskrev jeg flere
+              indsigter, der kunne hjælpe mig til at udvikle et produkt, der ville falde i god smag hos brugeren.
+              <br />
+              <br />
+              Efter min desk-research, lavede jeg en observation af et købsflow, et interview omkring præferencer og fokus ved shopping, samt en survey-undersøgelsen omkring onlineshopping. Observation er en måde at observere brugerens interaktion, hvor du kan se hvordan de
+              bevæger sig rundt og forholder sig. Interview-metoden er kvalitativ metode, hvor man kan lære en persons følelser, oplevelser og holderninger at kende, i forhold til et givent emne. Survey er derimod en kvantitativ metode, til at indsamle data fra en større mængde
+              brugere, der ved anonymitet også får større mulighed for at være mere ærlige. Min observation, survey og mit interview, gav mig et indblik i hvordan brugeren interagere ved online shopping og hvilke præferencer de har til et godt købsflow.
+              <br />
+              <br />
+              Som den sidste fase, inden jeg kunne begynde på min prototype, kunne jeg begynde på min endelige idéudvikling. Det gjorde jeg ved at rette i mit koncept, ved processe alt min indsamlede viden og data.
+            </p>
+          </div>
+          <!------------------------------section 3 billeder----------------------------------------->
+          <div class="div4">
+            <div class="mockup">
+              <img class="img1" src="billeder_portfolie/tema3/desk-research1.png" alt="desk-research" />
+              <h4 class="h4_tema3_1">desk-research</h4>
+            </div>
+            <div class="wireframe">
+              <img class="img2" src="billeder_portfolie/tema3/observation.png" alt="observation" />
+              <h4 class="h4_tema3_1">Observation</h4>
+            </div>
+            <div class="moodboard">
+              <img class="img3" src="billeder_portfolie/tema3/interview.png" alt="interview" />
+              <h4 class="h4_tema3_1">Interview</h4>
+            </div>
+            <div class="styletile">
+              <img class="img4" src="billeder_portfolie/tema3/survey.png" alt="survey" />
+              <h4 class="h4_tema3_1">Survey</h4>
             </div>
           </div>
-        </section>
-      </main>
-
-    <footer class="footer">
-        <section id="section1">
-          <div class="sociale_medier">
-          
-            <a href="https://www.facebook.com/maja.goltermann/">
-              <img src="billeder_portfolie/facebook.png" alt="facebook" />
-            </a>
-            <a href="mailto:maja.goltermann@gmail.com">
-              <img src="billeder_portfolie/email.png" alt="mail" />
-            </a>
-            <a href="https://www.instagram.com/majagoltermann/">
-              <img src="billeder_portfolie/instagram.png" alt="insta" />
-            </a>
+        </div>
+      </section>
+      <hr class="hr1" />
+      <!------------------------------section 4----------------------------------------->
+      <section id="section4">
+        <div class="grid_tema3_2">
+          <div class="div5">
+            <h4 class="h4_tema3_1">Ideudvikling, tidelig prototype og løsning</h4>
+            <p class="p_tema3">
+              Ved ideudvikling, starter jeg med sketch fasen. Her har jeg lært at lave lightning demos, til at finde produkter og feautures, som kunne være inspirerende til min hjemmeside. Her startede jeg med at undersøge andre hjemmesider, for gode og brugervenlige elementer,
+              hvor jeg efterfølgende sketchede hvordan jeg forestillede mig, at de kunne se ud og bruges på mit site. Efter lighting demos, lavede jeg en "Crazy 8s" sketch, som er 8 små sketches af den samme ide. Her har jeg valgt at sketche 8 mulige måde at opsætte produktsiden.
+              <br />
+              <br />
+              Til sidst kom vi til decide fasen, hvor jeg lavede en solution skecth, for hvordan jeg forestillede mig at min forside skulle se ud. Her lavede vi i klassen et art museum, hvor vi lavede "Speed Critique" og "supervote" på hinandens solution skecth. Her kunne vi
+              komme med kommentarer og pinpointe sketchens bedste elementer eller funktioner, samt stemme på den bedste ide.
+              <br />
+              <br />
+              Med udangspunkt i min solution skecth og medtagede ideer fra speed crituiqe, kunne jeg begynde på UI og lave min enedlige prototype i XD. UI er det visuelle, hvor UX er brugeres oplevelse. Jeg starteder med at lave et moodboard og et styletile, for at finde ud af
+              hvad min stemning og vibe skulle være. Til prototyping, brugte jeg konventioner for hvordan elementer hører sammen. Derudover benyttede jeg mig at copy og microcopy. Copy på mit prototype, er "Gør noget godt for miljøet og gå i plastik", som er placeret centralt på
+              forsiden, som noget af det første man skal lægge mærke til. Microcopy benytter jeg til at guide brugeren og hjælpe dem med at navigere og interagere med produktet/hjemmesiden.
+              <br />
+              <br />
+              Efter prototyping, kan jeg nu begynde testfasen, som er noget af det UX-eren beskæftiger sig allermest med.
+            </p>
           </div>
-        </section>
-        <p class="p_footer">Lavet af Maja Goltermann / maja.goltermann@gmail.com / maja6221@stud.kea.dk</p>
-        </footer>
-        <script src="java.js"></script>
-</body>
+          <!------------------------------section 4 billeder----------------------------------------->
+          <div class="div6">
+            <div class="lighting_demo">
+              <img class="img5" src="billeder_portfolie/tema3/lighting_demo.png" alt="lighting_demo" />
+              <h4 class="h4_tema3_1">Lighting Demo</h4>
+            </div>
+            <div class="lighting_demo1">
+              <img class="img6" src="billeder_portfolie/tema3/lighting_demo1.png" alt="lighting_demo1" />
+              <h4 class="h4_tema3_1">Lighting demo sketch</h4>
+            </div>
+            <div class="crazy8">
+              <img class="img7" src="billeder_portfolie/tema3/crazy8.png" alt="crazy8" />
+              <h4 class="h4_tema3_1">Crazy 8</h4>
+            </div>
+            <div class="solution_sketch">
+              <img class="img10" src="billeder_portfolie/tema3/solution_sketch1.png" alt="solution_sketch" />
+              <h4 class="h4_tema3_1">Solution Sketch</h4>
+            </div>
+            <div class="moodboard">
+              <img class="img8" src="billeder_portfolie/tema3/moodboard.png" alt="moodboard" />
+              <h4 class="h4_tema3_1">Moodboard</h4>
+            </div>
+            <div class="styletile">
+              <img class="img9" src="billeder_portfolie/tema3/styletile.png" alt="styletile" />
+              <h4 class="h4_tema3_1">Styletile</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="hr1" />
+      <!------------------------------section 5----------------------------------------->
+      <section id="section5">
+        <div class="grid_tema3_3">
+          <div class="div7">
+            <h4 class="h4_tema3_1">Test og pitch</h4>
+            <p class="p_tema3">
+              Som den sidste fase, skulle vi lave en test af vores færdige prototype. Det kan gøres på flere måder, men vi skulle gøre det ud fra et "Five act interview". Det består af 1. Friendly welcome, 2. Context questions, 3. Introduktion af prototype, 4. Tasks og 5.
+              Debrief. Her interviede jeg 3 studerende fra klassen. Der fandt jeg ud af, at mit site havde et godt købsflow, man skulle kunne tilgå produktet via billedet og ikke teksten, der skulle være en "fjern" knap i kurven og så skulle feltet med rabatkoder være mere
+              tydeligt.
+
+              <br />
+              <br />
+              Som en afslutning, skulle vi pitche vores ide for resten af klassen, hvilket jeg gjorde ved hjælp af powerpoint. I min pitch, konkluderede jeg, at mit site skulle skabe mere fokus på bæredygtighed, samt at "five act" testen gav et godt indblik i, hvordan folk selv
+              helst ville bevæge sig rundt på sitet. Det gav mig mange brugbare indsigter og observationer, som jeg kunne bruge til at videreudvikle mit site.
+            </p>
+          </div>
+        
+          <div class="div8">
+            <div class="pitch">
+              <img class="img10" src="billeder_portfolie/tema3/pitch.png" alt="pitch" />
+              <h4 class="h4_tema3_3">Pitch</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!------------------------------section 6----------------------------------------->
+      <section id="section6">
+        <h2 class="h2_tema3">Færdige produkt</h2>
+        <div class="færdig_produkt">
+          <img src="billeder_portfolie/tema3/prototype.png" alt="færdig_produkt" />
+        </div>
+        <div class="div9">
+          <form action="https://xd.adobe.com/view/011c64e9-c59c-4820-be12-e6909910b3e1-544f/">
+            <button class="button" type="submit">Se Prototype</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!------------------------------footer----------------------------------------->
+    <footer class="footer">
+      <section id="section1">
+        <div class="sociale_medier">
+          <a href="https://www.facebook.com/maja.goltermann/">
+            <img src="billeder_portfolie/facebook.png" alt="facebook" />
+          </a>
+          <a href="mailto:maja.goltermann@gmail.com">
+            <img src="billeder_portfolie/email.png" alt="mail" />
+          </a>
+          <a href="https://www.instagram.com/majagoltermann/">
+            <img src="billeder_portfolie/instagram.png" alt="insta" />
+          </a>
+        </div>
+      </section>
+      <p class="p_footer">Lavet af Maja Goltermann / maja.goltermann@gmail.com / maja6221@stud.kea.dk</p>
+    </footer>
+    <script src="java.js"></script>
+  </body>
 </html>
