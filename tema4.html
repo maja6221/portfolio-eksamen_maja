@@ -76,7 +76,7 @@
       </section>
       <!------------------------------section 3----------------------------------------->
       <section id="section3">
-        <h2 class="h2_tema3">Proces</h2>
+        <h2 class="h2_tema3">Proces - 04.04.01 Temaopgave</h2>
         <div class="grid_tema3_1">
           <div class="div3">
             <h4 class="h4_tema3_1">Idé, papirsprototype, skitser og stiludgangspunkt</h4>
@@ -89,24 +89,28 @@
               jeg kunne få en forestilling om, hvordan spillet skulle fungere.
               <br />
               <br />
-              
+              Med mine skitser og Ideér på plads, kunne jeg begynde at udvikle mine spilelementer i Adobe Illustrator.
+              Her lærte jeg om formgivning, ved at bruge forskellige former, til at sammensætte en figur. Ved brug af former
+              fik jeg designet min titelskærm, spilskærm, vinderskærm og taberskærm. Jeg blev klogere på
+              atmosfærisk perspektiv, til at komponere et spil med mere dybde. Altså, at komponere spillet, med en forgrund, mellemgrund og baggrund.
+
             </p>
           </div>
           <!------------------------------section 3 billeder----------------------------------------->
           <div class="div4">
-            <div class="mockup">
+            <div class="image1">
               <img class="img1" src="billeder_portfolie/tema4/ide.png" alt="ide" />
               <h4 class="h4_tema3_1">Idé</h4>
             </div>
-            <div class="wireframe">
+            <div class="image2">
               <img class="img2" src="billeder_portfolie/tema4/papirsprototype1.png" alt="papirsprototype" />
               <h4 class="h4_tema3_1">Papirsprototype</h4>
             </div>
-            <div class="moodboard">
+            <div class="image3">
               <img class="img3" src="billeder_portfolie/tema4/stiludgangspunkt.png" alt="stiludgangspunkt" />
               <h4 class="h4_tema3_1">Stilinspiration</h4>
             </div>
-            <div class="styletile">
+            <div class="image4">
               <img class="img4" src="billeder_portfolie/tema4/skitser1.png" alt="skitser" />
               <h4 class="h4_tema3_1">Skitser</h4>
             </div>
@@ -114,12 +118,32 @@
         </div>
       </section>
       <hr class="hr1" />
+      
       <!------------------------------section 4----------------------------------------->
       <section id="section4">
         <div class="grid_tema3_2">
           <div class="div5">
             <h4 class="h4_tema3_1">Aktivitetsdiagram og State Machine diagram</h4>
-            <p class="p_tema3"></p>
+            <p class="p_tema3">
+              Før jeg kunne begynde at kode mit spil, skulle jeg lave et State Machine Diagram og et Aktivitetdiagram.
+              <br />
+              <br />
+              Et State Machine Digram er en model, der bruges til at beslutte hvordan spillets elementer skal forholde sig, ud fra et givent event.
+              Altså er det en guide, til at forstå spillet og til at have en overblik over hvordan spillet skal forløbe sig.
+              Et eksempel er, at hvis man klikker på en god til, får man et point og hvis man klikker på en dårlig ting, mister man et liv. 
+              Forklaret på en anden måde, at hvis du er i funktionen "startSpil" og du klikker på en god ting, så rygere du videre til funktionen "ClickSushi". 
+              Eller hvis du ikke nå at samle nok gode ting ind, så ryger du i funktionen "stopSpillet".
+              <br />
+              <br />
+              Et Aktivitetdiagram er en mere simpel model, som viser hvordan spillets hændelser relaterer til hinanden. Det beskriver spillets flow. 
+              Eksempelvis ved at når du starte spillet, så begynder elementer at falde. Når du trykker på et godt element, så udføre én handling. Hvis du trykker på et dårligt element, så udføres en anden handling.
+
+            </p>
+
+            <div class="statemachine">
+              <img class="img6" src="billeder_portfolie/tema4/Statemachine.png" alt="statemachine" />
+              <h4 class="h4_tema3_1">State Machine Diagram</h4>
+            </div>
           </div>
           <!------------------------------section 4 billeder----------------------------------------->
           <div class="div6">
@@ -127,11 +151,8 @@
               <img class="img5" src="billeder_portfolie/tema4/aktivitetsdiagram.png" alt="aktivitetsdiagram" />
               <h4 class="h4_tema3_1">Aktivitetsdiagram</h4>
             </div>
-            <div class="statemachine">
-              <img class="img6" src="billeder_portfolie/tema4/Statemachine.png" alt="statemachine" />
-              <h4 class="h4_tema3_1">State Machine Diagram</h4>
-            </div>
           </div>
+          
         </div>
       </section>
 
@@ -141,7 +162,25 @@
         <div class="grid_tema3_3">
           <div class="div7">
             <h4 class="h4_tema3_1">HTML, CSS og Javascript</h4>
-            <p class="p_tema3"></p>
+            <p class="p_tema3">
+              Den sidste fase er at kode mit spil i JavaScript. JavaScripter et programmeringsprog, som man kan bruge til at maipulere en hjemmeside, til at opføre sig på en bestemt måde.
+              HTML er indholdet, CSS er det visuelere og JavaScript er dynamisk indhold. Ved at tilføje JavaScript, kan du gøre sådan, at hvis man trykker på en knap, så kommer der noget frem.
+              I dette tema, har vi brugt JavaScript i sammenhæng med CSS animationer, til at skabe dynamisk indhold til et spil.
+              <br />
+              <br />
+              Spillet går ud på at klikke på gode eller dårlige elementer. For at vinde, skal man trykke på et givent antal gode elementer, inden tiden løber ud. 
+              Man taber, hvis man enten trykker på et givent antal dårlige elementer og mister liv, eller hvis tiden løber ud. Jeg bruger JavaScript til at gøre elementer klikbare, loade siden, tilføje og fjerne klasser, samt undersøge om animationerne gør som vi har bedt dem om.
+              For at lave CSS animationer, har jeg lært at bruge "keyframes", til at definere, hvordan en animation skal opføre sig. Derudover har jeg lært at vælge en CSS-selector, ved at bruge "document.quaryselector("#selector")", samt
+              at kunne tilføje eller fjerne en klasse ved hjælp af, "classList.add("class_name")" og "classList.remove("class_name")".
+              <br />
+              <br />
+              For at kunne klikke på et spilelement, har jeg tilføjet ".addEventListener("click","functionName")". Så når du eks. klikker på en sushi, så lytter den til en given funktion og der udspiller sig et event.
+              Eksempelvis, at sushien drejer rundt og forsvinder. Når denne event er slut, lytter den efter en anden funktion. Eksempelvis, "levelComplete". Til sidst lærte vi også at definere funktionerne ud fra variable, som kunne gøre vores gode mere simpel og overskuelig.
+              <br />
+              <br />
+              Med alle faser færdige, skulle vi teste hinandens spil og give feedback. Her fik vi indblik i vores medstuderendes tilgang til opgaven og fik et indblik i deres ideer og koncepter.
+
+            </p>
           </div>
 
           <div class="div8">
@@ -160,6 +199,7 @@
           </div>
         </div>
       </section>
+      <hr class="hr1" />
       <!------------------------------section 6----------------------------------------->
       <section id="section6">
         <h2 class="h2_tema3">Færdige produkt</h2>
@@ -176,7 +216,7 @@
 
     <!------------------------------footer----------------------------------------->
     <footer class="footer">
-      <section id="section1">
+      <section id="section_footer">
         <div class="sociale_medier">
           <a href="https://www.facebook.com/maja.goltermann/">
             <img src="billeder_portfolie/facebook.png" alt="facebook" />

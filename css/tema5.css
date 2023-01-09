@@ -85,14 +85,15 @@
 }
 .div4 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr ;
   grid-template-rows: 1fr 1fr;
+  
 }
 
-.moodboard,
-.styletile,
-.mockup,
-.wireframe {
+.image1,
+.image2,
+.image3,
+.image4, .image5 {
   padding: 10px;
 }
 
@@ -112,9 +113,9 @@
 
 .div6 {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  width: 70%;
+  width: 100%;
   grid-row: 1;
   padding-inline: 10px;
   padding-right: 90px;
@@ -178,7 +179,7 @@
 
 
 
-/* ---------------------------section 6------------------------------ */
+/* ---------------------------section 6 og 3_1------------------------------ */
 
 .færdig_produkt {
   width: 100%;

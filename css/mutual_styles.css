@@ -161,11 +161,11 @@
     color: black;
   }
 
-  #section1 {
+  #section_footer {
     padding-top: 5%;
     padding: 5%;
   }
-  #section1 .sociale_medier {
+  #section_footer .sociale_medier {
     width: 40%;
     display: flex;
     gap: 20%;

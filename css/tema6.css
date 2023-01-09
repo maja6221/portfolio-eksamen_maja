@@ -8,6 +8,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 .h1_tema3 {
@@ -101,80 +103,6 @@
   font-size: 20px;
   color: #09297a;
 }
-
-/* ---------------------------section 4------------------------------ */
-
-.grid_tema3_2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding-inline: 50px;
-}
-
-.div6 {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
-  width: 70%;
-  grid-row: 1;
-  padding-inline: 10px;
-  padding-right: 90px;
-}
-
-.div5 {
-  grid-column: 2;
-  padding-bottom: 30px;
-}
-
-
-.aktivitetsdiagram, .statemachine, .html, .css, .java {
-  padding: 10px;
-}
-
-/* ---------------------------section 5------------------------------ */
-
-
-.grid_tema3_3 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding-inline: 50px;
-}
-.h2_tema3 {
-  text-align: center;
-  font-family: "bebas neue";
-  font-size: 50px;
-  color: #09297a;
-  padding-top: 20px;
-}
-
-.div7 {
-  padding-right: 90px;
-  padding-bottom: 30px;
-}
-.div8 {
-  display: grid;
-  grid-template-columns: 1fr 1fr ;
-  grid-template-rows: 1fr ;
-  width: 100%;
-  justify-self: right;
-
-}
-
-.java {
-  grid-column: 1 / span 2;
-}
-
-
-
-
-
-.h4_tema3_1 {
-  font-family: "bebas neue";
-  font-size: 20px;
-  color: #09297a;
-}
-
-
-
 
 
 
