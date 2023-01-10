@@ -45,7 +45,42 @@
     border-top: 1px solid black;
   }
   
+  /*==================== Burgermenu =======================*/
+.toggle-btn {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .toggle-btn {
+    background: transparent;
+    border: none;
+    display: block;
+    height: 44px;
+    padding: 0.25rem;
+    cursor: pointer;
+    font-size: 23px;
+    font-family: "bebas neue";
+    
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav.shown {
+    border-top: 1px solid #000;
+    /* padding-top: 1rem; */
+    display: flex;
+    flex-flow: column;
+  }
+
+  nav ul {
+    display: flex;
+    flex-flow: column;
+  }
+
   
+}
 
 
  
@@ -54,11 +89,14 @@
   
 
 /* --------------------menu------------------------ */
+
+
 #menu {
     display: flex;
     white-space: nowrap;
     padding-left: 20px;
-    gap: 15px;
+    padding-right: 20px;
+ 
   }
   
   ul#menu li {
@@ -75,6 +113,7 @@
       font-size: 30px;
       padding-left: 10px;
       padding-right: 10px;
+      
     }
   
   }
@@ -91,6 +130,7 @@
     padding-left: 10px;
     background-color: rgba(255, 255, 255, 0.704);
     z-index: 1;
+    
   }
   
   .logo {
@@ -133,6 +173,8 @@
     font-weight: 700;
     color: rgb(0, 0, 0);
   }
+
+  
   
   a:hover {
     color: #2c9feb;
@@ -196,3 +238,8 @@
 #myBtn:hover {
   background-color: grey;
 }
+
+
+
+
+
